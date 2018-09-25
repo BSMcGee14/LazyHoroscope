@@ -25,7 +25,7 @@ int main()
   if (vowel == true)
   {
      cout << "you are destined to be famous!" << endl;
-     cout << "you have aleady met your true!" << endl;
+     cout << "you have already met your true love." << endl;
      cout << "have a good day!" << endl;
   }
   else
