@@ -17,9 +17,9 @@ int main()
   cin >> firstName;
   cout << "What is your last name?" << endl;
   cin >> lastName;
-  cout << "Welcome, " << firstName[0]<< "." << lastName[0] << ", here is your fortune..." << endl;
+  cout << "Welcome, " << firstName[0]<< "." << lastName[0] << "."  << ", here is your fortune..." << endl;
   lucky = firstName.length();
-  cout << "your lucky number is... " << lucky << endl;
+  cout << "your lucky number is  " << lucky << endl;
   if (firstName[0] == 'a' || firstName[0] == 'e' || firstName[0] == 'i' || firstName[0] == 'o' || firstName[0] == 'u' || firstName[0] == 'A' || firstName[0] == 'E' || firstName[0] == 'I' || firstName[0] == 'O' || firstName[0] == 'U')
   vowel = true;
   if (vowel == true)
