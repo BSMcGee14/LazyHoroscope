@@ -13,9 +13,9 @@ int main()
   bool vowel = false;
 
   //get user input 
-  cout << "Please enter your first name: ";
+  cout << "What is  your first name?" << endl;
   cin >> firstName;
-  cout << "Please enter your last name: ";
+  cout << "What is your last name?" << endl;
   cin >> lastName;
   cout << "Welcome " << firstName[0]<< "." << lastName[0] << " here is your fortune..." << endl;
   if (firstName[0] == 'a' || firstName[0] == 'e' || firstName[0] == 'i' || firstName[0] == 'o' || firstName[0] == 'u' || firstName[0] == 'A' || firstName[0] == 'E' || firstName[0] == 'I' || firstName[0] == 'O' || firstName[0] == 'U')
@@ -26,7 +26,7 @@ int main()
   }
   else
   {
-    cout << "...you should keep a low profile..." << endl;
+    cout << "you should keep a low profile" << endl;
   }
 
   //tell fortune
